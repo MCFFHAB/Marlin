@@ -33,7 +33,7 @@
 //
 // Heaters / Fans
 //
-#define HEATER_0_PIN                        PA0   // Heater0
+#define HEATER_0_PIN                         PA1   // Heater0 default PA0 - Swapped to Hotbed
 #define HEATER_2_PIN                        PB0   // Heater2
 
 //

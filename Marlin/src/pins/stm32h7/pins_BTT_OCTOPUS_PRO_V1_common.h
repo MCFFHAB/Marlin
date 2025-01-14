@@ -223,8 +223,9 @@
 #define TEMP_BED_PIN                        PF3   // TB
 #define TEMP_0_PIN                          PF4   // TH0
 #define TEMP_1_PIN                          PF5   // TH1
-#define TEMP_2_PIN                          PF6   // TH2
+//#define TEMP_2_PIN                         PF6   // TH2
 #define TEMP_3_PIN                          PF7   // TH3
+#define TEMP_CHAMBER_PIN                     PF6   // Temp Chamber
 
 #if TEMP_SENSOR_0_IS_MAX31865
   #define TEMP_0_CS_PIN                     PF8   // Max31865 CS
@@ -238,7 +239,7 @@
 //
 // Heaters / Fans
 //
-#define HEATER_BED_PIN                      PA1   // Hotbed
+#define HEATER_BED_PIN                       PA0   // Hotbed default PA1 - Swapped to Heater0
 #define HEATER_1_PIN                        PA3   // Heater1
 #define HEATER_3_PIN                        PB11  // Heater3
 
